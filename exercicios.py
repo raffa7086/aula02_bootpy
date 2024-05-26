@@ -11,5 +11,4 @@ import math
 
 raio_circulo = float(input("Digite o raio do círulo: "))
 area_circulo = math.pi * raio_circulo ** 2
-format_area = "{:.2f}".format(area_circulo)
-print(format_area)
+print(f"{area_circulo:.2f}")
