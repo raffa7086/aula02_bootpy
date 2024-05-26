@@ -21,9 +21,14 @@
 
 # Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-numero01 = int(input("Digite o primeiro número: "))
-numero02 = int(input("Agora digite o segundo número: "))
-div_int = numero01 // numero02
-print(f"Aqui está o resultado: {div_int}")
+# numero01 = int(input("Digite o primeiro número: "))
+# numero02 = int(input("Agora digite o segundo número: "))
+# div_int = numero01 // numero02
+# print(f"Aqui está o resultado: {div_int}")
 
 # Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+numero = int(input("Número: "))
+CONSTANTE_POT = 2
+quadrado = numero ** CONSTANTE_POT
+print(f"O quadrado número é: {quadrado}")
