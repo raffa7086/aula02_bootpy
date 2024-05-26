@@ -14,10 +14,16 @@
 
 # Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
-numero01 = int(input("Número01: "))
-numero02 = int(input("Número02: "))
-mult = numero01 * numero02
-print(f"Esse é o resultado: {mult}")
+# numero01 = int(input("Número01: "))
+# numero02 = int(input("Número02: "))
+# mult = numero01 * numero02
+# print(f"Esse é o resultado: {mult}")
 
 # Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+numero01 = int(input("Digite o primeiro número: "))
+numero02 = int(input("Agora digite o segundo número: "))
+div_int = numero01 // numero02
+print(f"Aqui está o resultado: {div_int}")
+
 # Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
